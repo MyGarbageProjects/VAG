@@ -1,0 +1,19 @@
+Ford_Fulkerson
+-
+18 193
+139 93
+146 267
+317 93
+313 267
+476 93
+476 267
+605 193
+-
+inf 6 6 inf inf inf inf inf
+inf inf inf 4 2 inf inf inf
+inf 5 inf inf 9 inf inf inf
+inf inf inf inf inf 4 2 inf
+inf inf inf 8 inf inf 7 inf
+inf inf inf inf inf inf inf 7
+inf inf inf inf inf 11 inf 4
+inf inf inf inf inf inf inf inf

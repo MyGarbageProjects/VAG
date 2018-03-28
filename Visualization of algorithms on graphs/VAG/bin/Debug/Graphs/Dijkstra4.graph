@@ -1,0 +1,175 @@
+Dijkstra
+-
+13 380
+10 316
+50 339
+86 371
+8 264
+47 272
+115 294
+152 317
+185 335
+201 356
+233 384
+14 183
+43 200
+80 212
+167 240
+256 265
+261 308
+351 381
+446 360
+29 124
+112 160
+161 162
+201 204
+286 202
+325 270
+322 333
+392 333
+484 329
+515 362
+17 63
+76 91
+118 111
+160 123
+241 142
+277 171
+362 178
+363 225
+392 258
+429 282
+509 303
+546 333
+559 362
+15 21
+56 33
+93 57
+155 66
+171 83
+239 90
+264 108
+352 97
+366 135
+428 176
+444 204
+476 225
+506 244
+548 274
+565 299
+587 320
+604 348
+629 370
+241 25
+305 43
+361 67
+395 86
+438 122
+456 140
+504 170
+527 199
+604 223
+615 278
+395 24
+420 52
+466 70
+504 109
+545 108
+576 155
+621 177
+642 197
+502 41
+571 59
+605 102
+633 134
+649 166
+600 27
+632 65
+644 18
+-
+inf 8 6 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+8 inf 10 10 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 155 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+6 10 inf 18 16 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf 10 18 inf 18 17 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 78 inf inf inf inf inf 109 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 183 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf 16 18 inf 16 25 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 119 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf 17 16 inf 23 30 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 131 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf 25 23 inf 25 27 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 108 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf 30 25 inf 20 37 inf 33 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 180 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf 27 20 inf 35 27 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 128 inf inf inf inf inf inf inf inf inf inf inf 284 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf 37 35 inf 34 45 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 201 inf inf inf inf inf inf 309 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf 27 34 inf 38 35 inf inf inf inf 55 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 164 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 226 inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf 33 inf 45 38 34 40 30 inf inf inf inf 55 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf 35 40 inf 52 43 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 141 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 185 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf 30 52 inf 57 51 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf 43 57 inf 60 67 59 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf 51 60 inf 65 74 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 130 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf 67 65 inf 52 65 inf inf inf inf inf inf inf inf inf inf 100 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 138 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf 55 inf inf inf 59 74 52 inf 55 89 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf 55 inf inf inf inf 65 55 inf 80 77 inf inf inf inf inf inf inf inf inf inf inf inf inf inf 139 inf inf inf inf inf 142 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 209 inf inf inf inf inf inf inf inf inf inf 385 inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 89 80 inf 75 70 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 181 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 77 75 inf 78 72 inf inf inf inf inf 127 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 290 inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 70 78 inf 90 94 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 249 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 72 90 inf 92 85 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf 78 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 94 92 inf 58 97 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 85 58 inf 67 117 inf inf 66 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 97 67 inf 70 104 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 117 70 inf 101 128 inf inf inf inf inf inf 150 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 350 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 104 101 inf 102 81 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 356 inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 127 inf inf inf inf inf 128 102 inf 131 79 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 358 inf inf inf inf inf inf inf inf inf 
+inf inf inf 109 inf inf inf inf inf inf inf inf inf inf inf inf 100 inf inf inf inf inf inf inf 66 inf inf 81 131 inf 125 89 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 79 125 inf 84 103 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 232 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf 141 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 89 84 inf 148 93 142 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 103 148 inf 137 126 inf inf inf inf inf inf inf inf inf inf inf inf inf 225 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf 119 131 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 93 137 inf 153 102 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 142 126 153 inf 160 148 inf inf inf inf inf inf inf inf inf inf inf inf inf inf 224 inf inf inf inf inf inf inf inf inf inf inf inf 189 inf inf inf inf inf inf inf inf inf 275 inf inf inf inf 331 inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 139 inf inf inf inf inf inf inf 150 inf inf inf inf inf inf 102 160 inf 92 149 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 262 inf inf inf inf inf inf inf inf inf inf inf inf 326 inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 148 92 inf 121 120 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 149 121 inf 186 149 inf inf inf inf inf inf inf inf inf inf 235 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 120 186 inf 120 166 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 345 inf inf inf 249 inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 149 120 inf 186 129 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 130 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 166 186 inf 199 161 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 299 inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf 108 inf inf inf inf inf inf inf inf inf inf inf 142 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 129 199 inf 192 160 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 161 192 inf 209 210 inf inf inf inf inf inf inf inf inf inf inf inf inf inf 208 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf 180 inf inf 164 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 160 209 inf 148 136 inf inf inf 233 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 210 148 inf 230 143 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 136 230 inf 226 215 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf 128 inf inf inf inf inf inf inf 138 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 143 226 inf 238 247 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf 155 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 215 238 inf 174 179 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 231 inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 181 inf inf inf inf inf inf inf inf inf inf 232 inf 225 inf inf inf inf inf inf inf inf inf inf inf inf inf 247 174 inf 154 228 148 inf inf inf inf inf inf inf inf inf inf inf inf 206 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 249 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 233 inf inf inf 179 154 inf 243 243 inf inf inf inf inf inf inf inf 316 inf 309 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 235 inf inf inf inf inf inf inf inf inf inf 228 243 inf 259 153 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 256 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf 183 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 224 inf inf inf inf inf inf inf inf inf inf inf inf inf 148 243 259 inf 176 155 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 153 176 inf 185 142 inf inf inf inf inf inf inf inf inf inf inf inf inf inf 197 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 155 185 inf 281 186 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 142 281 inf 285 278 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 186 285 inf 252 240 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 278 252 inf 289 274 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 240 289 263 174 317 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 254 inf inf 
+inf inf inf inf inf inf inf inf 284 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 274 174 163 188 207 inf inf inf inf inf inf inf inf 296 inf inf inf inf inf inf inf inf inf inf 421 inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 208 inf inf inf inf inf inf inf inf inf inf inf inf inf inf 317 188 inf 185 218 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 273 inf inf inf inf 
+inf inf inf inf inf inf inf inf inf 201 inf inf 185 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 316 inf inf inf inf inf inf inf inf 207 185 inf 269 254 inf inf inf inf inf inf inf inf inf inf inf inf inf 248 inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 218 269 inf 249 258 inf inf inf inf inf inf inf inf inf inf inf inf 236 inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 309 inf inf inf inf inf inf inf inf inf inf 254 249 inf 249 200 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 258 249 inf 181 262 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 189 inf inf inf inf inf inf inf inf inf inf inf inf inf 206 inf inf inf inf inf inf inf inf inf inf inf inf inf 200 181 inf 199 340 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 262 199 inf 350 299 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 209 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 340 350 inf 349 264 inf inf inf inf inf inf inf inf inf 326 inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf 309 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 299 349 inf 278 355 inf inf inf 328 inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 256 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 264 278 inf 360 371 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 350 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 197 inf inf inf inf inf 296 inf inf inf inf inf inf inf inf 355 360 inf 333 271 inf inf inf inf inf inf 421 inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 371 333 inf 371 270 inf inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 262 inf inf inf inf 299 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 271 371 inf 299 324 inf inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 345 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 270 299 inf 296 228 inf inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 328 inf inf inf 324 296 inf 341 355 inf inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 275 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 228 341 inf 388 258 inf inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 355 388 inf 305 219 inf inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 358 inf inf inf inf inf inf inf inf inf 249 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 248 236 inf inf inf inf inf inf inf inf inf inf inf inf 258 305 inf 353 225 inf inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf 226 inf inf inf inf inf inf inf 385 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 219 353 inf 349 246 inf inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 326 inf inf 421 inf inf inf inf inf inf 225 349 inf 405 330 inf inf inf inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 331 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 246 405 inf 340 402 inf 304 inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 231 inf inf inf inf inf inf inf inf inf inf 421 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 330 340 inf 284 322 360 inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 273 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 402 284 inf 243 245 inf inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 290 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 322 243 inf 413 302 inf 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 254 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 304 360 245 413 inf 391 432 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 356 inf inf inf inf inf inf inf 326 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 302 391 inf 465 
+inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 432 465 inf 
